@@ -34,6 +34,7 @@ library
                     , Data.Generics.Product.Types
                     , Data.Generics.Product.Constraints
                     , Data.Generics.Product.HList
+                    , Data.Generics.Product.Internal.HList
                     , Data.Generics.Labels
                     , Data.Generics.Internal.GenericN
 
@@ -68,7 +69,6 @@ library
                     , Data.Generics.Product.Internal.Subtype
 
                     , Data.Generics.Product.Internal.Constraints
-                    , Data.Generics.Product.Internal.HList
 
   build-depends:      base        >= 4.9 && < 5.0
                     , profunctors >= 5.0 && < 6.0
